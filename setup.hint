@@ -1,4 +1,4 @@
 category: Gnome
-requires: libgcrypt11 libglib2.0_0 libgnutls26 libproxy1
+requires: ca-certificates libgcrypt11 libglib2.0_0 libgnutls26 libproxy1
 sdesc: "GIO networking modules"
 ldesc: "Network-related GIO modules for GLib."
