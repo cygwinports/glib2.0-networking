@@ -1,0 +1,20 @@
+NAME="glib2.0-networking"
+VERSION=2.32.3
+RELEASE=2
+CATEGORY="Gnome"
+SUMMARY="GIO networking modules"
+DESCRIPTION="Network-related GIO modules for GLib."
+ORIG_PN="glib-networking"
+inherit gnome2
+
+REQUIRES="ca-certificates"
+
+DEPEND="gnome-common
+	pkgconfig(gio-2.0)
+	pkgconfig(gnutls)
+	pkgconfig(gsettings-desktop-schemas)
+	pkgconfig(libproxy-1.0)"
+
+CYGCONF_ARGS="--libexecdir=/usr/bin --with-ca-certificates=/usr/ssl/certs/ca-bundle.crt"
+
+KEEP_LA_FILES="none"
