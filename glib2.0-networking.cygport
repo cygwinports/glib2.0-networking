@@ -1,6 +1,6 @@
 NAME="glib2.0-networking"
 VERSION=2.32.3
-RELEASE=2
+RELEASE=3
 CATEGORY="Gnome"
 SUMMARY="GIO networking modules"
 DESCRIPTION="Network-related GIO modules for GLib."
