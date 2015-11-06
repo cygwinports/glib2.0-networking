@@ -2,7 +2,7 @@ ORIG_PN="glib-networking"
 inherit gnome2
 
 NAME="glib2.0-networking"
-VERSION=2.42.1
+VERSION=2.46.1
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="GIO networking modules"
