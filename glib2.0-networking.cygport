@@ -3,7 +3,7 @@ inherit gnome2
 
 NAME="glib2.0-networking"
 VERSION=2.50.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="GIO networking modules"
 DESCRIPTION="Network-related GIO modules for GLib."
